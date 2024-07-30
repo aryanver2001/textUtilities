@@ -41,7 +41,7 @@ export default function TextForm(props) {
                 <h3>Enter Your Text To Ananlyze</h3>
             </div>
             <div className="container form-floating my-3">
-                <textarea className="form-control" placeholder="Leave a comment here" style={{backgroundColor: props.mode==='dark'?'#2f2e2e':'white', color : props.mode==='dark'?'white':'black' ,  height: 200 + "px" }} value={text} onChange={handleOnChange} id="floatingTextarea"></textarea>
+                <textarea className="form-control" placeholder="Leave a comment here" style={{backgroundColor: props.mode==='dark'?'#2516268a':'white', color : props.mode==='dark'?'white':'black' ,  height: 200 + "px" }} value={text} onChange={handleOnChange} id="floatingTextarea"></textarea>
             </div>
             <div className='container my-2'>
                 <button type="button" className="btn btn-primary mx-2" onClick={handleUpClick}>To Uppercase</button>
