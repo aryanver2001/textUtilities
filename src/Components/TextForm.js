@@ -44,10 +44,10 @@ export default function TextForm(props) {
                 <textarea className="form-control" placeholder="Leave a comment here" style={{backgroundColor: props.mode==='dark'?'#2516268a':'white', color : props.mode==='dark'?'white':'black' ,  height: 200 + "px" }} value={text} onChange={handleOnChange} id="floatingTextarea"></textarea>
             </div>
             <div className='container my-2'>
-                <button type="button" className="btn btn-primary mx-2" onClick={handleUpClick}>To Uppercase</button>
-                <button type="button" className="btn btn-primary mx-2" onClick={handleLoClick}>To Lowercase</button>
-                <button type="button" className="btn btn-primary mx-2" onClick={handleExtraSpaces}>Remove Extraspaces</button>
-                <button type="button" className="btn btn-primary mx-2" onClick={handleClrClick}>Clear Textarea</button>
+                <button type="button" className="btn btn-primary m-2" onClick={handleUpClick}>To Uppercase</button>
+                <button type="button" className="btn btn-primary m-2" onClick={handleLoClick}>To Lowercase</button>
+                <button type="button" className="btn btn-primary m-2" onClick={handleExtraSpaces}>Remove Extraspaces</button>
+                <button type="button" className="btn btn-primary m-2" onClick={handleClrClick}>Clear Textarea</button>
             </div>
             <div className='container my-3'>
                 <h3><u>Summary:</u></h3>
